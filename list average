@@ -1,0 +1,6 @@
+a = ["deepak", "sharath", "ravi", "rose"]
+marks = [[20,30,40],[44,55,66],[77,88,99],[45,55,65]]
+
+for i in range(4):
+    avg = sum(marks[i]) // 3
+    print("{}. {} has scored {}".format(i+1, a[i], avg))
