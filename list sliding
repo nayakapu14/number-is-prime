@@ -1,0 +1,16 @@
+maths = ["raju","ashok","rose","rock","ram"]
+social = ["anu","arun","ram","akila","ashok"]
+computer = ["siram","rock","sam","suresh","ashok"]
+
+m = set(maths)
+s = set(social)
+c = set(computer)
+
+three = m & s & c
+print("Three subject:", list(three))
+
+x = (m & s) | (s & c) | (m & c)
+print("Common in any subjects:", list(x))
+
+two = x - three
+print("Two subject:", list(two))
