@@ -1,0 +1,10 @@
+a =int(input("enter num: "))
+b=int(input("enter num: "))
+c=int(input("enter num: "))
+lst = list(str(a))
+lst1=list(str(b))
+lst2=list(str(c))
+y=int(min(lst))+int(min(lst1))+int(min(lst2))
+
+z=int(max(lst))+int(max(lst1))+int(max(lst2))
+print(z+y
